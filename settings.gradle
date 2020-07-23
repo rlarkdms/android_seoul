@@ -1,0 +1,2 @@
+rootProject.name='crawling2'
+include ':app'

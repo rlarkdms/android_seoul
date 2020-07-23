@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwhite">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_alignParentLeft="true"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:text="처음 화면♡♡♡♡"
+        android:id="@+id/title"
+        android:textSize="20sp"
+        android:textColor="#8C8C8C"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+    <ImageButton
+        android:id="@+id/btnHistory"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_launcher_background"
+        android:layout_width="56dp"
+        android:layout_height="56dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn1"
+        android:background="@color/colorwhite"
+        android:text="공공와이파이 위치"
+        android:textSize="20dp"
+        android:layout_height="0px"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:background="@color/colorwhite"
+        android:text="와이파이 속도"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        android:layout_height="0px"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:background="@color/colorwhite"
+        android:text="와이파이 신청"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+
+        android:layout_height="0px"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/btn4"
+       android:text="행사"
+        android:background="@color/colorwhite"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        android:layout_height="0px"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
